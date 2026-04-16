@@ -7,10 +7,10 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 const images = [
-  '/src/lib/img1.webp',
-  '/src/lib/img2.webp',
-  '/src/lib/img3.webp',
-  '/src/lib/img4.webp',
+  'https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/img1.webp',
+  'https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/img2.webp',
+  'https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/img3.webp',
+  'https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/img4.webp',
 ];
 
 export default function Carousel() {

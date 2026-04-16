@@ -1,12 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 import { motion } from 'motion/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const images = [
   'https://picsum.photos/seed/wedding1/1200/800',
@@ -27,13 +25,11 @@ export default function Carousel() {
           className="overflow-hidden rounded-3xl shadow-2xl ring-8 ring-white"
         >
           <Swiper
-            modules={[Autoplay, EffectFade, Navigation, Pagination]}
+            modules={[Autoplay, EffectFade]}
             effect="fade"
             spaceBetween={0}
             slidesPerView={1}
-            navigation
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            autoplay={{ delay: 4000, disableOnInteraction: false }}
             className="h-[300px] w-full md:h-[400px]"
           >
             {images.map((src, index) => (

@@ -7,10 +7,10 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 const images = [
-  'https://picsum.photos/seed/wedding1/1200/800',
-  'https://picsum.photos/seed/wedding2/1200/800',
-  'https://picsum.photos/seed/wedding3/1200/800',
-  'https://picsum.photos/seed/wedding4/1200/800',
+  '/src/lib/img1.webp',
+  '/src/lib/img2.webp',
+  '/src/lib/img3.webp',
+  '/src/lib/img4.webp',
 ];
 
 export default function Carousel() {

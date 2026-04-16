@@ -12,8 +12,8 @@ const events = [
   {
     date: '20 April 2026',
     items: [
-      { time: '10:00 AM', title: 'Chak', icon: <Calendar className="text-gold" />, desc: 'Traditional morning rituals.' },
-      { time: '12:15 PM', title: 'Bhat', icon: <Users className="text-gold" />, desc: 'Welcoming the maternal family.' },
+      { time: '10:00 AM', title: 'Chaak', icon: <Calendar className="text-gold" />, desc: 'Traditional morning rituals.' },
+      { time: '12:15 PM', title: 'Bhaat', icon: <Users className="text-gold" />, desc: 'Welcoming the maternal family.' },
       { time: '06:00 PM', title: 'Pratibhoj', icon: <Utensils className="text-gold" />, desc: 'A grand feast for our loved ones.' },
       { time: '08:00 PM', title: 'Swagat Barat', icon: <Heart className="text-gold" />, desc: 'The grand arrival of the Groom.' },
     ]
@@ -31,7 +31,7 @@ export default function Timeline() {
           className="rounded-xl border-[8px] border-double border-gold bg-cream p-8 shadow-[inset_0_0_40px_rgba(0,0,0,0.1)] md:p-12"
         >
           <div className="mb-12 border-b border-royal/10 pb-8 text-center">
-            <h2 className="font-serif text-3xl uppercase tracking-[2px] text-ink">Lagna Patrika</h2>
+            <h2 className="font-serif text-3xl uppercase tracking-[2px] text-ink">Wedding Programme</h2>
             <p className="mt-2 font-serif text-sm italic text-royal/60">The Sacred Schedule</p>
           </div>
 
@@ -66,7 +66,7 @@ export default function Timeline() {
 
           <div className="mt-16 text-center">
             <p className="font-serif text-sm italic text-royal/60">
-              Family & Friends RSVP by April 1st
+              Family & Friends RSVP by April 18th
             </p>
           </div>
         </motion.div>

@@ -38,8 +38,14 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="absolute top-10 z-20 w-full text-center"
+            className="absolute top-8 z-20 w-full text-center flex flex-col items-center justify-center gap-2"
           >
+            <img 
+              src="https://img.icons8.com/ios-filled/100/ecc9c9/ganesh.png" 
+              alt="Lord Ganesha" 
+              className="w-16 h-16 md:w-20 md:h-20"
+              referrerPolicy="no-referrer"
+            />
             <p className="font-serif text-lg font-medium text-gold md:text-2xl">
               ॥ श्री गणेशाय नमः ॥
             </p>

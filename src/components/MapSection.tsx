@@ -15,10 +15,10 @@ export default function MapSection() {
             <MapPin size={32} />
           </div>
           
-          <h2 className="mb-2 font-serif text-xl text-gold">The Grand Palace</h2>
+          <h2 className="mb-2 font-serif text-xl text-gold">Shrihit Kunj Farm House</h2>
           <p className="mb-8 font-serif text-xs leading-relaxed opacity-60">
-            Plot No. 44, Heritage Road,<br />
-            Civil Lines, Jaipur, RJ
+            Near JDA Farm House Leelo Ki Dhani,<br />
+            Jaisinghpura Bhankrota, Jaipur
           </p>
 
           <div className="mb-12 w-full overflow-hidden rounded-lg border border-gold/20 shadow-xl">

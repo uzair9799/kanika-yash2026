@@ -23,7 +23,7 @@ export default function MapSection() {
 
           <div className="mb-12 w-full overflow-hidden rounded-lg border border-gold/20 shadow-xl">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.464676510103!2d75.789123415045!3d26.912434783123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4145635858f%3A0x8a36c234622d5081!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3559.803725660528!2d75.70059177543719!3d26.84619437668688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzQ2LjMiTiA3NcKwNDInMTEuNCJF!5e0!3m2!1sen!2sin!4v1776350332075!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
               width="100%"
               height="300"
               style={{ border: 0 }}

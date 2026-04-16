@@ -10,7 +10,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
 
   const handleStart = () => {
     setIsVisible(false);
-    setTimeout(onComplete, 1000); // Match animation duration
+    setTimeout(onComplete, 1500); // Sync with curtain duration
   };
 
   return (
@@ -41,7 +41,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             className="absolute top-8 z-20 w-full text-center flex flex-col items-center justify-center gap-2"
           >
             <img 
-              src="https://www.nicepng.com/png/full/19-193847_ganesh-ji-logo-png.png" 
+              src="https://img.icons8.com/ios-filled/100/ecc9c9/ganesh.png" 
               alt="Lord Ganesha" 
               className="w-16 h-16 md:w-20 md:h-20"
               referrerPolicy="no-referrer"
@@ -56,10 +56,18 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             initial={{ scaleX: 1 }}
             exit={{ scaleX: 0 }}
             transition={{ duration: 1.5, ease: [0.45, 0, 0.55, 1] }}
-            style={{ originX: 0 }}
-            className="absolute inset-y-0 left-0 w-1/2 bg-royal shadow-2xl"
+            style={{ 
+              originX: 0,
+              background: 'linear-gradient(to right, #051650, #123499)'
+            }}
+            className="absolute inset-y-0 left-0 w-1/2 shadow-2xl"
           >
-            <div className="absolute right-0 h-full w-1 bg-[#a52a2a]" />
+            <motion.div 
+              initial={{ opacity: 0 }}
+              exit={{ opacity: 1 }}
+              transition={{ duration: 0.2 }}
+              className="absolute right-0 h-full w-1 bg-[#a52a2a]" 
+            />
             {/* Curtain Flap Detail */}
             <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(0,0,0,0.2) 41px)' }} />
           </motion.div>
@@ -67,10 +75,18 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             initial={{ scaleX: 1 }}
             exit={{ scaleX: 0 }}
             transition={{ duration: 1.5, ease: [0.45, 0, 0.55, 1] }}
-            style={{ originX: 1 }}
-            className="absolute inset-y-0 right-0 w-1/2 bg-royal shadow-2xl"
+            style={{ 
+              originX: 1,
+              background: 'linear-gradient(to left, #051650, #123499)'
+            }}
+            className="absolute inset-y-0 right-0 w-1/2 shadow-2xl"
           >
-            <div className="absolute left-0 h-full w-1 bg-[#a52a2a]" />
+            <motion.div 
+              initial={{ opacity: 0 }}
+              exit={{ opacity: 1 }}
+              transition={{ duration: 0.2 }}
+              className="absolute left-0 h-full w-1 bg-[#a52a2a]" 
+            />
             {/* Curtain Flap Detail */}
             <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(0,0,0,0.2) 41px)' }} />
           </motion.div>

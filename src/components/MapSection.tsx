@@ -34,7 +34,7 @@ export default function MapSection() {
           </div>
 
           <a
-            href="https://maps.google.com"
+            href="https://maps.app.goo.gl/QEeYjVhtsqKNiYKm8?g_st=iw"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-gold px-8 py-2 text-[10px] uppercase tracking-[2px] text-gold transition-all hover:bg-gold hover:text-royal"

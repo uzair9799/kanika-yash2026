@@ -25,7 +25,7 @@ export default function MusicToggle({ isPlaying, onToggle }: MusicToggleProps) {
     <div className="fixed right-6 top-6 z-50">
       <audio
         ref={audioRef}
-        src="https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/music.mp3"
+        src="https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/music2.mp3"
         loop
       />
       <motion.button

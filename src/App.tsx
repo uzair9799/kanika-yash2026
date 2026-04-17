@@ -37,23 +37,24 @@ export default function App() {
           />
           
           <main className="animate-in fade-in duration-1000">
-            <div className="mx-auto max-w-7xl px-4 py-12">
-              <div className="grid grid-cols-1 gap-8 lg:grid-cols-[320px_1fr_280px]">
+            <Hero />
+            
+            <div className="mx-auto max-w-7xl px-4 py-8">
+              <div className="grid grid-cols-1 gap-4 lg:grid-cols-[350px_1fr_300px]">
                 {/* Left Column */}
-                <div className="flex flex-col gap-8">
-                  <Hero />
+                <div className="flex flex-col gap-4">
                   <ScratchCard />
                 </div>
 
                 {/* Middle Column */}
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-4">
                   <Carousel />
+                  <Countdown />
                   <Timeline />
                 </div>
 
                 {/* Right Column */}
-                <div className="flex flex-col gap-8">
-                  <Countdown />
+                <div className="flex flex-col gap-4">
                   <MapSection />
                   <Footer />
                 </div>

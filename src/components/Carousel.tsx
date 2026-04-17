@@ -15,13 +15,13 @@ const images = [
 
 export default function Carousel() {
   return (
-    <section className="py-20">
+    <section className="py-10">
       <div className="container mx-auto px-4">
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true, margin: "-100px" }}
           className="overflow-hidden rounded-3xl shadow-2xl ring-8 ring-white"
         >
           <Swiper

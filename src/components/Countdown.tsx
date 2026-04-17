@@ -50,23 +50,30 @@ export default function Countdown() {
   );
 
   return (
-    <section className="py-24">
+    <section className="py-10">
       <div className="container mx-auto px-2 text-center">
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true, margin: "-50px" }}
           className="mb-4 text-[10px] uppercase tracking-[2px] text-cream/60"
         >
           Counting Down To Forever
         </motion.p>
 
-        <div className="flex flex-nowrap justify-center gap-2 md:gap-4">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true, margin: "-50px" }}
+          className="flex flex-nowrap justify-center gap-2 md:gap-4"
+        >
           <TimeUnit value={timeLeft.days} label="Days" />
           <TimeUnit value={timeLeft.hours} label="Hrs" />
           <TimeUnit value={timeLeft.minutes} label="Min" />
           <TimeUnit value={timeLeft.seconds} label="Sec" />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

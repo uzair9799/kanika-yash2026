@@ -12,8 +12,8 @@ const events = [
   {
     date: '20 April 2026',
     items: [
-      { time: '10:00 AM', title: 'Chaak', icon: <Calendar className="text-gold" />, desc: 'Traditional morning rituals.' },
-      { time: '12:15 PM', title: 'Bhaat', icon: <Users className="text-gold" />, desc: 'Welcoming the maternal family.' },
+      { time: '10:00 AM', title: 'Chak', icon: <Calendar className="text-gold" />, desc: 'Traditional morning rituals.' },
+      { time: '12:15 PM', title: 'Bhat', icon: <Users className="text-gold" />, desc: 'Welcoming the maternal family.' },
       { time: '06:00 PM', title: 'Pratibhoj', icon: <Utensils className="text-gold" />, desc: 'A grand feast for our loved ones.' },
       { time: '08:00 PM', title: 'Swagat Barat', icon: <Heart className="text-gold" />, desc: 'The grand arrival of the Groom.' },
     ]
@@ -22,12 +22,13 @@ const events = [
 
 export default function Timeline() {
   return (
-    <section className="py-24">
+    <section className="py-10">
       <div className="container mx-auto max-w-3xl px-4">
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 60 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true, margin: "-100px" }}
           className="rounded-xl border-[8px] border-double border-gold bg-cream p-8 shadow-[inset_0_0_40px_rgba(0,0,0,0.1)] md:p-12"
         >
           <div className="mb-12 border-b border-royal/10 pb-8 text-center">

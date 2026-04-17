@@ -102,11 +102,12 @@ export default function ScratchCard() {
   };
 
   return (
-    <section className="py-20 text-center">
+    <section className="py-10 text-center">
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        viewport={{ once: true, margin: "-100px" }}
         className="mx-auto max-w-md px-4"
       >
         <h2 className="mb-2 font-serif text-sm uppercase tracking-[2px] text-gold">Scratch to Reveal Date</h2>

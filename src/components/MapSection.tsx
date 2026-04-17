@@ -3,12 +3,13 @@ import { MapPin } from 'lucide-react';
 
 export default function MapSection() {
   return (
-    <section className="py-24">
+    <section className="py-10">
       <div className="container mx-auto max-w-3xl px-4">
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true, margin: "-100px" }}
           className="flex flex-col items-center justify-center rounded-lg border border-white/10 bg-[#222] p-12 text-center shadow-2xl"
         >
           <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-gold text-gold shadow-lg">
@@ -23,7 +24,7 @@ export default function MapSection() {
 
           <div className="mb-12 w-full overflow-hidden rounded-lg border border-gold/20 shadow-xl">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3559.803725660528!2d75.70059177543719!3d26.84619437668688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzQ2LjMiTiA3NcKwNDInMTEuNCJF!5e0!3m2!1sen!2sin!4v1776350332075!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.7893110260274!2d75.7196233!3d26.8550133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db376378ef861%3A0x9597148a272337d!2sShrihit%20Kunj%20Farm%20House!5e0!3m2!1sen!2sin!4v1713374400000!5m2!1sen!2sin"
               width="100%"
               height="300"
               style={{ border: 0 }}

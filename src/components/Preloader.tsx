@@ -41,7 +41,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             className="absolute top-8 z-20 w-full text-center flex flex-col items-center justify-center gap-2"
           >
             <img 
-              src="https://raw.githubusercontent.com/uzair9799/kanika-yash2026/main/src/lib/ganeshji.png" 
+              src="https://img.icons8.com/ios-filled/100/ecc9c9/ganesh.png" 
               alt="Lord Ganesha" 
               className="w-16 h-16 md:w-20 md:h-20"
               referrerPolicy="no-referrer"

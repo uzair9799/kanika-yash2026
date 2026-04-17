@@ -1,6 +1,6 @@
 {
   "name": "Kanika & Yash Wedding Invitation",
   "description": "A modern, elegant, and interactive wedding invitation for Kanika and Yash, featuring a scratch card reveal, countdown, and event timeline.",
-  "requestFramePermissions": [],
+  "requestFramePermissions": ["geolocation"],
   "majorCapabilities": []
 }

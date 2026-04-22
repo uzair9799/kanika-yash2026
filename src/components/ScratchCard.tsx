@@ -115,7 +115,7 @@ export default function ScratchCard() {
           {/* Revealed Content */}
           <div className="flex h-full w-full flex-col items-center justify-center bg-cream p-4 text-center">
             <p className="font-serif text-xs uppercase tracking-widest text-royal/60">Wedding Date</p>
-            <p className="font-serif text-3xl font-bold text-royal">20 April 2026</p>
+            <p className="font-serif text-3xl font-bold text-royal">26 April 2026</p>
             <p className="mt-2 font-cursive text-xl text-gold">Save the Date!</p>
           </div>
 

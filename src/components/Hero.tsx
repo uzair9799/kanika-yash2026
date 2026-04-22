@@ -18,10 +18,10 @@ export default function Hero() {
         className="relative z-10 w-full max-w-2xl rounded-sm border border-gold bg-white/5 p-8 shadow-2xl backdrop-blur-md md:p-16"
       >
         {/* Sanskrit Text at top of box */}
-        <div className="absolute inset-x-0 top-6 flex items-center justify-center gap-8 font-serif text-[9px] text-gold md:text-[11px]">
+        <!-- <div className="absolute inset-x-0 top-6 flex items-center justify-center gap-8 font-serif text-[9px] text-gold md:text-[11px]">
           <span>|| श्रीहित हरिवंश चंद्रो जयति ||</span>
           <span>|| श्री राधा वल्लभो जयति ||</span>
-        </div>
+        </div>-->
 
         <div className="mt-4">
           <motion.p
@@ -30,7 +30,7 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 1 }}
             className="mb-6 text-[11px] font-medium uppercase text-gold/80"
           >
-            With the grace of God, we invite you to the
+            WITH THE GRACE OF SHREE MORI WALEN HANUMAN JI
           </motion.p>
 
           <motion.h1
@@ -39,8 +39,8 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 1.2 }}
             className="mb-8 font-serif text-5xl italic text-gold md:text-8xl"
           >
-            Wedding of
-            <div className="mt-4 block text-cream not-italic">Kanika & Yash</div>
+            25th Wedding Anniversary of
+            <div className="mt-4 block text-cream not-italic">Mr. Rajeev & Mrs. Malka</div>
           </motion.h1>
 
           <motion.div
@@ -56,7 +56,7 @@ export default function Hero() {
             transition={{ delay: 1.8, duration: 1 }}
             className="font-serif text-sm tracking-[4px] text-cream/90"
           >
-            Request the honour of your presence
+            Mrs. Nirmala & Mr. Radha Ballabh Tiwari request the honour of your presence
           </motion.p>
           
           <motion.p
@@ -65,7 +65,7 @@ export default function Hero() {
             transition={{ delay: 2, duration: 1 }}
             className="mt-2 font-serif text-[10px] uppercase tracking-[2px] text-gold/60"
           >
-            At the wedding ceremony of their children
+            At the 25th wedding anniversary of their beloved
           </motion.p>
         </div>
       </motion.div>

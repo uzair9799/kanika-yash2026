@@ -3,19 +3,11 @@ import { Calendar, Clock, Heart, Music, Users, Utensils } from 'lucide-react';
 
 const events = [
   {
-    date: '18 April 2026',
+    date: '26 April 2026',
     items: [
-      { time: '10:00 AM', title: 'Haldi', icon: <Heart className="text-gold" />, desc: 'A splash of yellow and joy.' },
-      { time: '05:00 PM', title: 'Sangeet', icon: <Music className="text-gold" />, desc: 'A night of music, dance, and celebration.' },
-    ]
-  },
-  {
-    date: '20 April 2026',
-    items: [
-      { time: '10:00 AM', title: 'Chak', icon: <Calendar className="text-gold" />, desc: 'Traditional morning rituals.' },
-      { time: '12:15 PM', title: 'Bhat', icon: <Users className="text-gold" />, desc: 'Welcoming the maternal family.' },
-      { time: '06:00 PM', title: 'Pratibhoj', icon: <Utensils className="text-gold" />, desc: 'A grand feast for our loved ones.' },
-      { time: '08:00 PM', title: 'Swagat Barat', icon: <Heart className="text-gold" />, desc: 'The grand arrival of the Groom.' },
+      { time: '03:00 PM', title: 'Sangeet', icon: <Music className="text-gold" />, desc: 'A night of music, dance, and celebration.' },
+      { time: '07:00 PM', title: 'Stage Ceremony', icon: <Users className="text-gold" />, desc: 'Celebratory stage moments.' },
+      { time: '07:30 PM', title: 'Dinner', icon: <Utensils className="text-gold" />, desc: 'A grand feast for our loved ones.' },
     ]
   }
 ];
@@ -67,7 +59,7 @@ export default function Timeline() {
 
           <div className="mt-16 text-center">
             <p className="font-serif text-sm italic text-royal/60">
-              Family & Friends RSVP by April 18th
+              Family & Friends RSVP by April 26th
             </p>
           </div>
         </motion.div>

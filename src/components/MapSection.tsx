@@ -16,15 +16,14 @@ export default function MapSection() {
             <MapPin size={32} />
           </div>
           
-          <h2 className="mb-2 font-serif text-xl text-gold">Shrihit Kunj Farm House</h2>
+          <h2 className="mb-2 font-serif text-xl text-gold">James Marriage Garden</h2>
           <p className="mb-8 font-serif text-xs leading-relaxed opacity-60">
-            Near JDA Farm House Leelo Ki Dhani,<br />
-            Jaisinghpura Bhankrota, Jaipur
+            AGRA RD,NEW KHANDELWAL NAGAR, PREM NAGAR, JAIPUR
           </p>
 
           <div className="mb-12 w-full overflow-hidden rounded-lg border border-gold/20 shadow-xl">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.7893110260274!2d75.7196233!3d26.8550133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db376378ef861%3A0x9597148a272337d!2sShrihit%20Kunj%20Farm%20House!5e0!3m2!1sen!2sin!4v1713374400000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.495283600152!2d75.88502319999999!3d26.887772199999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7712c5db97b%3A0xbf98cf49a6158712!2sJems%20Garden!5e0!3m2!1sen!2sin!4v1776887923454!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
               width="100%"
               height="300"
               style={{ border: 0 }}
@@ -35,7 +34,7 @@ export default function MapSection() {
           </div>
 
           <a
-            href="https://maps.app.goo.gl/QEeYjVhtsqKNiYKm8?g_st=iw"
+            href="https://maps.app.goo.gl/uFCJLJ6MMCBn5Uzm9"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-gold px-8 py-2 text-[10px] uppercase tracking-[2px] text-gold transition-all hover:bg-gold hover:text-royal"

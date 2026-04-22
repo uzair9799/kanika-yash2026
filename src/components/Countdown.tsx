@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 
 export default function Countdown() {
-  const targetDate = new Date('2026-04-20T00:00:00').getTime();
+  const targetDate = new Date('2026-04-26T00:00:00').getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,

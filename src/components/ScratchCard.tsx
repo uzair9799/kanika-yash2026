@@ -135,7 +135,7 @@ export default function ScratchCard() {
         </div>
         <div className="mt-8 rounded-lg border-l-2 border-gold bg-white/5 p-4 text-left">
           <p className="font-serif text-sm italic text-cream/70">
-            "Two souls, one heart, a journey that begins together..."
+            "25 years of love, laughter, and the promise of many more years to come"
           </p>
         </div>
       </motion.div>
